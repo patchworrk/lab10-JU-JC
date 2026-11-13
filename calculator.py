@@ -13,10 +13,6 @@ def subtract(a, b):
     return a - b
 def multiply(a, b):
     return a * b
-def div(a,b):
-    if a == 0:
-        raise ZeroDivisionError
-    return a / b
 def logarithm(a, b):
     if b < 0:
         raise ValueError
